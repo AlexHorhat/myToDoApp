@@ -1,3 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  background-color: #f0e3d4;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.main-container {
+  max-width: 1100px;
+  margin: 20px auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.app-title {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.app-title .fa-tasks {
+  color: chocolate;
+}
+.app-title span {
+  color: chocolate;
+}
+
+.input-form {
+  display: flex;
+}
+.input-form input {
+  height: 30px;
+  margin-right: 30px;
+}
+.input-form #date {
+  width: 200px;
+}
+.input-form #toDo {
+  width: 500px;
+}
+.input-form #task-importance {
+  width: 150px;
+  height: 30px;
+  background-color: #a09e9e;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+.input-form #task-importance #dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  list-style-type: none;
+  z-index: 1;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
 
 /*# sourceMappingURL=stlye.css.map */

@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/stlye.css">
-    <script src="https://kit.fontawesome.com/10106d7b88.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/stlye.css" />
+    <script
+      src="https://kit.fontawesome.com/10106d7b88.js"
+      crossorigin="anonymous"
+    ></script>
     <title>To Do App</title>
-</head>
-<body>
-    <div class="app-title">
-        <i class="fas fa-tasks"></i> <span>To Do</span> List
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="app-title">
+        <i class="fas fa-tasks"></i> To Do <span>List</span>
+      </div>
+      <form class="input-form">
+        <input id="date" type="date" />
+        <input type="text" name="To Do" id="toDo" />
+        <div id="task-importance">
+          <span id="selected-importance"> Importance </span>
+          <ul id="dropdown">
+            <li>High</li>
+            <li>Medium</li>
+            <li>Low</li>
+          </ul>
+        </div>
+      </form>
     </div>
 
-
-
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
