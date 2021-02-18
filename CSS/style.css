@@ -61,6 +61,26 @@ body {
   cursor: pointer;
   width: 100%;
   text-align: center;
+  background-color: #a5a4a4;
+}
+.input-form #task-importance #dropdown li:hover {
+  background-color: #caa26d;
+}
+.input-form #submit {
+  width: 150px;
+  height: 30px;
+  background-color: #a09e9e;
+  margin-left: 50px;
+  text-align: center;
+  cursor: pointer;
 }
 
-/*# sourceMappingURL=stlye.css.map */
+.to-do-list {
+  width: 80%;
+  text-align: justify;
+  margin-top: 50px;
+  border-top: 2px solid black;
+  padding-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

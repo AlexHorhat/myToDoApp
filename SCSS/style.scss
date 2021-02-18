@@ -68,6 +68,29 @@ body{
             cursor: pointer;
             width: 100%;
             text-align: center;
+            background-color: #a5a4a4;
+
+            li:hover{
+                background-color: rgb(202, 162, 109);
+            }
         }
+
     }
+
+    #submit {
+        width: 150px;
+        height: 30px;
+        background-color: rgb(160, 158, 158);
+        margin-left: 50px;
+        text-align: center;
+        cursor: pointer;
+    }
+}
+
+.to-do-list{
+    width: 80%;
+    text-align: justify;
+    margin-top: 50px;
+    border-top: 2px solid black;
+    padding-top: 10px;
 }
